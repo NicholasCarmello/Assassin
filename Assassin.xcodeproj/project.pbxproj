@@ -97,8 +97,10 @@
 		45FF8F64292917D60027CE4E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				45FF8F65292917D60027CE4E /* AssassinApp.swift */,
-				45FF8F66292917D60027CE4E /* ContentView.swift */,
+				45FF8FA629291B840027CE4E /* Models */,
+				45FF8FA429291B660027CE4E /* Views */,
+				45FF8FA329291B510027CE4E /* Controllers */,
+				45FF8FA129291B330027CE4E /* Resources */,
 				45FF8F67292917DB0027CE4E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +141,36 @@
 				45FF8F8B292917DB0027CE4E /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		45FF8FA129291B330027CE4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45FF8FA329291B510027CE4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45FF8FA429291B660027CE4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45FF8F66292917D60027CE4E /* ContentView.swift */,
+				45FF8F65292917D60027CE4E /* AssassinApp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45FF8FA629291B840027CE4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
